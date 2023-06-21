@@ -1,3 +1,3 @@
-import { uuid as v4 } from 'uuidv4';
+const { v4: uuidv4 } = require('uuid');
 
-export const idClientePorCNPJ = (idCliente: string): string => v4();
+export const idClientePorCNPJ = (idCliente: string): string => uuidv4();
