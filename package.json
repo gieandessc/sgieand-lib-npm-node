@@ -1,0 +1,16 @@
+{
+  "name": "identificacao-cliente",
+  "version": "1.0.0",
+  "description": "Lib utilizada para identificar os clientes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "lib",
+    "npm",
+    "node"
+  ],
+  "author": "Gieandes Silva",
+  "license": "ISC"
+}
