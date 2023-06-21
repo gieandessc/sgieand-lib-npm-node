@@ -1,8 +1,9 @@
 {
   "name": "sgieand-identificacao-cliente",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Lib utilizada para identificar os clientes",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "homepage": "https://github.com/gieandessc/sgieand-lib-npm-node",
   "repository": {
     "type": "git",
