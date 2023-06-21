@@ -1,10 +1,17 @@
 {
-  "name": "identificacao-cliente",
+  "name": "sgieand-identificacao-cliente",
   "version": "1.0.0",
   "description": "Lib utilizada para identificar os clientes",
   "main": "index.js",
+  "homepage": "https://github.com/gieandessc/sgieand-lib-npm-node",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gieandessc/sgieand-lib-npm-node.git"
+  },
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc"
   },
   "keywords": [
     "lib",
@@ -12,5 +19,14 @@
     "node"
   ],
   "author": "Gieandes Silva",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cnpj": "^4.0.3",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "ts-node-dev": "^2.0.0"
+  }
 }
